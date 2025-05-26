@@ -63,8 +63,7 @@ npx expo start
 
 ❗ If you're not using Expo, replace the last command with:
 npx react-native start
-
-
+``` 
 📱 How to Run the App
 
 ✅ Android
