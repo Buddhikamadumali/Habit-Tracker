@@ -1,98 +1,88 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# 📱 Habit Tracker – Build Good Habits, Break Bad Ones!
 
-# Getting Started
+A React Native app to help users build consistent routines and track progress over time.  
+Easily add daily or weekly habits, mark them as complete, and stay motivated with clear visual progress tracking – all stored locally!
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+---
 
-## Step 1: Start Metro
+## 🎯 Project Objective
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+This mobile app allows users to:
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+- Register/Login (locally using AsyncStorage)
+- Create daily/weekly habits (e.g., "Exercise", "Read", "Drink Water")
+- Mark habits as completed each day
+- Track progress over time
+- Store and retrieve habit data using AsyncStorage
 
-```sh
-# Using npm
-npm start
+---
 
-# OR using Yarn
-yarn start
-```
+## 🚀 Features
 
-## Step 2: Build and run your app
+- Registration / Login (Local Storage Only)  
+- Auto-login if user data exists  
+- Logout functionality  
+- Create Habit (Name + Frequency: Daily / Weekly)  
+- Store habits using AsyncStorage  
+- Habit List with FlatList  
+- Mark habits as completed  
+- Filters: All Habits / Today’s Habits / Completed Habits  
+- Progress Tracking: % of habits completed today  
+- Weekly progress  
+- Calendar view for habit streaks  
+- Animations for completing habits  
+- Light / Dark mode  
 
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
+---
 
-### Android
+## 🛠️ Tech Stack
 
-```sh
-# Using npm
-npm run android
+- React Native CLI
+- TypeScript
+- React Navigation (Stack + Tab)
+- AsyncStorage
+- useContext (optional state management)
 
-# OR using Yarn
-yarn android
-```
+---
 
-### iOS
 
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
+---
 
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
+## 📦 Setup Instructions
 
-```sh
-bundle install
-```
+```bash
+# Clone the repository
+git clone https://github.com/your-username/habit-tracker-app.git
+cd habit-tracker-app
 
-Then, and every time you update your native dependencies, run:
+# Install dependencies
+npm install
 
-```sh
-bundle exec pod install
-```
+# Start the Metro bundler
+npx expo start
 
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
+❗ If you're not using Expo, replace the last command with:
+npx react-native start
 
-```sh
-# Using npm
-npm run ios
+## 📱 How to Run the App
 
-# OR using Yarn
-yarn ios
-```
+✅ Android
 
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
+bash
+npx react-native run-android
+Make sure Android Studio emulator or a physical device is connected.
 
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
+🍎 iOS
+bash
+npx react-native run-ios
+Requires macOS with Xcode installed.
 
-## Step 3: Modify your app
+✅ If you're using Expo, just scan the QR code from your terminal using the Expo Go app.
 
-Now that you have successfully run the app, let's make changes!
+📽️ Demo Video
 
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
+https://github.com/user-attachments/assets/750f6d34-e83e-4061-98cb-9ef54a7bf7a0
 
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
 
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
 
-## Congratulations! :tada:
 
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
-"# Habit-Tracker" 
