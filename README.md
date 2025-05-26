@@ -64,16 +64,14 @@ npx expo start
 ❗ If you're not using Expo, replace the last command with:
 npx react-native start
 
-## 📱 How to Run the App
+
+📱 How to Run the App
 
 ✅ Android
-
-bash
 npx react-native run-android
 Make sure Android Studio emulator or a physical device is connected.
 
 🍎 iOS
-bash
 npx react-native run-ios
 Requires macOS with Xcode installed.
 
@@ -81,7 +79,10 @@ Requires macOS with Xcode installed.
 
 📽️ Demo Video
 
-https://github.com/user-attachments/assets/750f6d34-e83e-4061-98cb-9ef54a7bf7a0
+https://github.com/user-attachments/assets/a5e9de47-92d6-4214-ace6-2f5a8b41a883
+
+
+
 
 
 
