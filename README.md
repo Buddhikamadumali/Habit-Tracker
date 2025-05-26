@@ -67,12 +67,20 @@ npx react-native start
 📱 How to Run the App
 
 ✅ Android
--npx react-native run-android
--Make sure Android Studio emulator or a physical device is connected.
+
+```bash
+npx react-native run-android
+```
+
+Make sure Android Studio emulator or a physical device is connected.
 
 🍎 iOS
--npx react-native run-ios
--Requires macOS with Xcode installed.
+
+```bash
+npx react-native run-ios
+```
+
+Requires macOS with Xcode installed.
 
 ✅ If you're using Expo, just scan the QR code from your terminal using the Expo Go app.
 
